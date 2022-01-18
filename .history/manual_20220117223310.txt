@@ -1,0 +1,62 @@
+SQL - structured query language
+CRUD - create, read , update, delete
+
+
+Relational = Basically rows and cols
+Non-Relational = not tables, just documents 
+
+Relational databases needs sql to get the information needed
+
+Non-relational databases does not need sql to get the information
+
+========Tables & Keys========
+
+
+id 
+name 
+age 
+height 
+1
+Eidmone
+19
+57
+2
+Johnson
+11
+58
+3
+Tagaca
+15
+56
+
+
+
+Id can be anything but needs an id for it to be different and has an identifier
+
+Surrogate key -> just a random number to refer to an id of a certain data
+
+Natural key -> something that has a meaning, example -> the birthdate or social security number of a person
+
+Foreign key -> a key of another table inside of a table
+
+Composite key -> needs two cols to determined an actual value(basically two values)
+Eidmone, Tagaca, 19 -> same value
+Johnson, Tagaca, 19 -> but different ID’s
+
+Data Query Language -> query database for info
+Data Definition Language -> databases schemas
+Data Control Language -> controlling the access, or for permissions
+Data Manipulation Language -> basically updating, creating, deleting
+
+
+
+
+
+SELECT employee.name, employee.age ->select what info?
+FROM employee -> what document?
+WHERE employee.salary > 30000 -> Like a filter…
+
+
+
+
+
